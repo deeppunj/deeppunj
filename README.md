@@ -4,17 +4,21 @@
 <h3 align="center">git commit -m "Hello, I'm a Physicist 🔬 who's fell in love with Data Storytelling"</h3>
 
 ### Wanna see my online footprint:question::point_right: [Click Here : punjdeep.bio.link](https://punjdeep.bio.link/):sparkles:
-<!--
-**deeppunj/deeppunj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=deeppunj&color=blue" alt="deeppunj" /> </p>
 
-Here are some ideas to get you started:
+- 🤔 I’m looking for help with a job transition in Data-Science.
+- 🔭 I’m currently working on building my portfolio [My website](https://punjdeep.com/) 
+- 🌱 I’m currently learning all about Data Story-telling, see my certificates on [LinkedIn](https://www.linkedin.com/in/deeppunj/)
+- 👯 I have stared writing on [Medium](https://punjdeep.medium.com/)
+- 💬 Ask me about **Python, Tableau, Matlab, Machine Learning, GitHub**
+- 📫 How to reach me: [My Bio Link](http://punjdeep.bio.link)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What can we chat about:question::cyclone:
+<code>git commit -m "We can talk about Data analysis, Physics, Math and other nerd stuff!"</code> :grin:
+
+<!-- This part is commented
+<h3 align="left">Languages and Tools:</h3>
+<a href="https://opencv.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
+--> 
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api?username=deeppunj&show_icons=true&locale=en" alt="deeppunj" /></p>
