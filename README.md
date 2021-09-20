@@ -9,7 +9,7 @@
 - 🤔 I’m looking for help with a job transition in Data-Science.
 - 🔭 I’m currently working on building my portfolio [My website](https://punjdeep.com/) 
 - 🌱 I’m currently learning all about Data Story-telling, see my certificates on [LinkedIn](https://www.linkedin.com/in/deeppunj/)
-- 👯 I have stared writing on [Medium](https://punjdeep.medium.com/)
+- 👯 I have started writing on [Medium](https://punjdeep.medium.com/)
 - 💬 Ask me about **Python, Tableau, Matlab, Machine Learning, GitHub**
 - 📫 How to reach me: [My Bio Link](http://punjdeep.bio.link)
 
