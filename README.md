@@ -6,7 +6,7 @@
 ### Wanna see my online footprint:question::point_right: [Click Here : punjdeep.bio.link](https://punjdeep.bio.link/):sparkles:
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deeppunj&color=blue" alt="deeppunj" /> </p>
 
-- 🤔 I’m looking for help with a job transition in Data-Science.
+- 🤔 I’m working toward a job transition in Data-Science.
 - 🔭 I’m currently working on building my portfolio [My website](https://punjdeep.com/) 
 - 🌱 I’m currently learning all about Data Story-telling, see my certificates on [LinkedIn](https://www.linkedin.com/in/deeppunj/)
 - 👯 I have started writing on [Medium](https://punjdeep.medium.com/)
