@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Deep Punj</h1>
 <h3 align="center">git commit -m "Hello, I'm a Physicist 🔬 who's fallen in love with Data Storytelling"</h3>
 
-### My online footprint:question::point_right: [Click Here : punjdeep.bio.link](https://punjdeep.bio.link/):sparkles:
+### To see my online footprint:point_right: [Click Here : punjdeep.bio.link](https://punjdeep.bio.link/):sparkles:
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deeppunj&color=blue" alt="deeppunj" /> </p>
 
 - 🤔 I’m working toward a job transition in Data-Science.
