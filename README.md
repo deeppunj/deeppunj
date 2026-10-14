@@ -7,9 +7,8 @@ Optical engineer (PhD) moving into data science. I build end-to-end, tested Pyth
 projects on real industrial and scientific data, using my background in lasers,
 cameras and measurement to design meaningful features and check results honestly.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=deeppunj&color=blue" alt="deeppunj" /> </p>
 
-**Contact:** [LinkedIn](https://www.linkedin.com/in/deeppunj/) · deep.punj@outlook.com · [Website](https://punjdeep.com/) · [Medium](https://punjdeep.medium.com/) · [Bio link](https://punjdeep.bio.link/)
+**Contact:** [LinkedIn](https://www.linkedin.com/in/deeppunj/) | deep.punj@outlook.com | [Bio link](https://punjdeep.bio.link/)
 
 ---
 
