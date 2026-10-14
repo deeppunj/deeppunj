@@ -48,8 +48,7 @@ Detecting laser-weld defects from thermal camera frames.
 - **Domain:** optics, lasers, imaging, laboratory instrumentation, pharmaceutical research
 - **Learning:** Databricks (Coursera)
 
-## How my projects are built
-
+## This is how I am learning to build projects now:
 1. **Reproducible:** one environment, `pip install -e .`, data downloaded by script
 2. **Honest evaluation:** no data leakage, comparison with simple baselines
 3. **Tested:** pytest tests that run automatically on GitHub
