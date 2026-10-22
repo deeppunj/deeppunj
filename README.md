@@ -41,6 +41,14 @@ Detecting laser-weld defects from thermal camera frames.
 *Updated automatically every day.*
 
 <!-- RECENT:START -->
+| Project | What it is | Language | Updated |
+|---|---|---|---|
+| [sipho-coupler-study](https://github.com/deeppunj/sipho-coupler-study) | SiN edge coupler: mode design → tolerance → assembly yield, with Optiland micro-optics. | Python | 2026-10-22 |
+| [laser-defect-inspection-ml](https://github.com/deeppunj/laser-defect-inspection-ml) | Interpretable ML pipeline that detects laser-weld defects from thermal-camera images: physics-based image features, Random Forest with weld-grouped nested CV (ROC AUC 0.97), SHAP explanations, Streamlit dashboard, pytest + CI | Jupyter Notebook | 2026-10-20 |
+| [battery-dispatch-be](https://github.com/deeppunj/battery-dispatch-be) | Day-ahead price forecasting and constrained battery dispatch on Belgian electricity prices: gradient-boosting forecasts, linear-program scheduling (CVXPY), and a chronological 2024 backtest. | Jupyter Notebook | 2026-10-16 |
+| [SQL_Pandas_FaceOff](https://github.com/deeppunj/SQL_Pandas_FaceOff) | Projects done using both SQL and Pandas(Python) using the same dataset and having the same end-product in mind.  | Jupyter Notebook | 2026-10-16 |
+| [portfolio-projects_old](https://github.com/deeppunj/portfolio-projects_old) | Hi there! 👋 You will find some of my old projects here. These projects are categorized in different folders and the details are given in the README.md file.  | Jupyter Notebook | 2026-10-14 |
+| [powerbi_fda_drug_shortages](https://github.com/deeppunj/powerbi_fda_drug_shortages) |  Power BI dashboard analyzing 1,141 active US FDA drug shortages by category, manufacturer and duration  |  | 2026-10-11 |
 <!-- RECENT:END -->
 
 ---
