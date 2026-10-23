@@ -1,27 +1,26 @@
-"""Rewrite the block between the RECENT markers in README.md:
-a line with my latest activity + a table of my other public repos (not featured), newest first."""
+"""Rewrite the block between the RECENT markers in README.md.
+
+Shows:
+- a "More projects" list with only the repos I tagged with the topic "portfolio" (and that have a description),
+  except the ones already in "Featured projects"
+- one small line with my latest activity
+
+To show a repo here: on its GitHub page, About (gear icon) -> add a description and the topic "portfolio".
+"""
 import json
 import os
 import re
 import urllib.request
 
 USER = "deeppunj"
+TOPIC = "portfolio"
 
-# already shown in "Featured projects" in the readme, so not repeated in the table
-# (if you feature a new repo, add its name here)
+# already in "Featured projects" in the readme, so not listed again
 FEATURED = {
     "patient-finding-synthea",
     "laser-defect-inspection-ml",
     "battery-dispatch-be",
     "sipho-coupler-study",
-}
-
-# never shown: the profile repo itself, the old archive, and work in progress / repos without a readme yet
-SKIP = {
-    USER,
-    "portfolio-projects_old",
-    "SQL_Pandas_FaceOff",
-    "Optical-Engineering-Portfolio",
 }
 
 req = urllib.request.Request(
@@ -31,23 +30,25 @@ req = urllib.request.Request(
 )
 repos = json.load(urllib.request.urlopen(req))
 
-# public, own (not forked), not archived, not the profile repo; already sorted newest push first
+# my own public repos, newest push first, without the profile repo
 repos = [r for r in repos if not r["fork"] and not r["private"] and not r["archived"] and r["name"] != USER]
 
 lines = []
 
-# latest activity over all repos (featured ones too)
-if repos:
-    latest = repos[0]
-    lines.append(f"Latest activity: [{latest['name']}]({latest['html_url']}), {latest['pushed_at'][:10]}")
+# tagged repos with a description, not featured
+more = [r for r in repos
+        if TOPIC in r.get("topics", []) and r["description"] and r["name"] not in FEATURED]
+if more:
+    lines += ["## More projects", ""]
+    for r in more:
+        desc = r["description"].strip().rstrip(".")
+        lines.append(f"- **[{r['name']}]({r['html_url']})**: {desc}")
     lines.append("")
 
-others = [r for r in repos if r["name"] not in FEATURED and r["name"] not in SKIP]
-if others:
-    lines += ["| Project | What it is | Updated |", "|---|---|---|"]
-    for r in others:
-        desc = (r["description"] or "").replace("|", "/").strip()
-        lines.append(f"| [{r['name']}]({r['html_url']}) | {desc} | {r['pushed_at'][:10]} |")
+if repos:
+    latest = repos[0]
+    lines.append(f"<sub>Latest activity: <a href=\"{latest['html_url']}\">{latest['name']}</a>, "
+                 f"{latest['pushed_at'][:10]} · this section updates automatically</sub>")
 
 with open("README.md", encoding="utf-8") as f:
     readme = f.read()
