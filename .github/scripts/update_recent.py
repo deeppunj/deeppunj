@@ -1,11 +1,10 @@
 """Rewrite the block between the RECENT markers in README.md.
 
-Shows:
-- a "More projects" list with only the repos I tagged with the topic "portfolio" (and that have a description),
-  except the ones already in "Featured projects"
-- one small line with my latest activity
+Shows a "More projects" section in the same style as "Featured projects":
+only repos tagged with the topic "portfolio" that have a description, not the featured ones.
+The other topics of the repo are shown as tool tags.
 
-To show a repo here: on its GitHub page, About (gear icon) -> add a description and the topic "portfolio".
+To add a repo: on its GitHub page, About (gear icon) -> description + topic "portfolio" (+ tool topics like "power-bi").
 """
 import json
 import os
@@ -15,12 +14,19 @@ import urllib.request
 USER = "deeppunj"
 TOPIC = "portfolio"
 
-# already in "Featured projects" in the readme, so not listed again
+# already in "Featured projects", not listed again
 FEATURED = {
     "patient-finding-synthea",
     "laser-defect-inspection-ml",
     "battery-dispatch-be",
     "sipho-coupler-study",
+}
+
+# readable titles, also the order they are shown in. repos not in here come after, newest first,
+# with a title made from the repo name
+TITLES = {
+    "powerbi_fda_drug_shortages": "US drug shortages dashboard",
+    "portfolio-projects_old": "Earlier data projects",
 }
 
 req = urllib.request.Request(
@@ -33,22 +39,38 @@ repos = json.load(urllib.request.urlopen(req))
 # my own public repos, newest push first, without the profile repo
 repos = [r for r in repos if not r["fork"] and not r["private"] and not r["archived"] and r["name"] != USER]
 
-lines = []
 
-# tagged repos with a description, not featured
-more = [r for r in repos
-        if TOPIC in r.get("topics", []) and r["description"] and r["name"] not in FEATURED]
-if more:
-    lines += ["## More projects", ""]
-    for r in more:
-        desc = r["description"].strip().rstrip(".")
-        lines.append(f"- **[{r['name']}]({r['html_url']})**: {desc}")
-    lines.append("")
+def title(repo):
+    if repo["name"] in TITLES:
+        return TITLES[repo["name"]]
+    # my_repo-name -> My repo name
+    return repo["name"].replace("_", " ").replace("-", " ").capitalize()
 
+
+more = [r for r in repos if TOPIC in r.get("topics", []) and r["description"] and r["name"] not in FEATURED]
+order = list(TITLES)
+more.sort(key=lambda r: order.index(r["name"]) if r["name"] in order else len(order))  # stable: rest stays newest first
+
+# latest activity over all my repos (featured ones too)
+last_update = ""
 if repos:
     latest = repos[0]
-    lines.append(f"<sub>Latest activity: <a href=\"{latest['html_url']}\">{latest['name']}</a>, "
-                 f"{latest['pushed_at'][:10]} · this section updates automatically</sub>")
+    last_update = f"Last update: [{latest['name']}]({latest['html_url']}), {latest['pushed_at'][:10]}"
+
+lines = []
+if more:
+    lines += ["## More projects", ""]
+    if last_update:
+        lines += [last_update, ""]
+    for r in more:
+        lines.append(f"**[{title(r)}]({r['html_url']})**<br>")
+        lines.append(r["description"].strip())
+        tags = [t for t in r.get("topics", []) if t != TOPIC]
+        if tags:
+            lines += ["", " ".join(f"`{t}`" for t in tags)]
+        lines.append("")
+elif last_update:
+    lines.append(last_update)
 
 with open("README.md", encoding="utf-8") as f:
     readme = f.read()
