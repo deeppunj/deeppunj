@@ -57,7 +57,7 @@ Detecting laser-weld defects from thermal camera frames.
 
 - **Optics and photonics:** waveguide mode solving, FDTD (Lumerical), COMSOL, optical design (Optiland, Zemax basics), lasers, OCT, microscopy, nanofabrication (FIB, SEM, AFM)
 - **Programming:** Python (NumPy, SciPy, pandas, scikit-learn, matplotlib), SQL, MATLAB
-- **Machine learning:** feature engineering, cross-validation, leakage control, Gaussian-process surrogates, model explanation (SHAP)
+- **Machine learning:** feature engineering, cross-validation, leakage control, Gaussian-process, model explanation (SHAP)
 - **Engineering practice:** packaging (pyproject.toml), pytest, Git, GitHub Actions, Streamlit
 - **Visualisation:** Power BI, Tableau, matplotlib
 
