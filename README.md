@@ -63,6 +63,11 @@ From waveguide mode design to assembly yield for fibre-to-chip and chip-to-chip 
 `Python` `NumPy/SciPy` `Optiland` `gdstk` `pytest` `GitHub Actions`
 
 <!-- RECENT:START -->
+## More projects
+
+- **[powerbi_fda_drug_shortages](https://github.com/deeppunj/powerbi_fda_drug_shortages)**: Power BI dashboard analyzing 1,141 active US FDA drug shortages by category, manufacturer and duration
+
+<sub>Latest activity: <a href="https://github.com/deeppunj/patient-finding-synthea">patient-finding-synthea</a>, 2026-10-23 · this section updates automatically</sub>
 <!-- RECENT:END -->
 
 ---
