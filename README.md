@@ -75,7 +75,7 @@ Power BI dashboard analyzing 1,141 active US FDA drug shortages by category, man
 **[Earlier data projects](https://github.com/deeppunj/portfolio-projects_old)**<br>
 Earlier projects: Goodreads Streamlit app, Tableau dashboards, breast-cancer and banknote classifiers
 
-`portfolio-website`
+`portfolio-project` `scikit-learn` `streamlit` `tableau`
 
 <!-- RECENT:END -->
 
