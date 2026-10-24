@@ -65,7 +65,7 @@ From waveguide mode design to assembly yield for fibre-to-chip and chip-to-chip 
 <!-- RECENT:START -->
 ## More projects
 
-Last update: [patient-finding-synthea](https://github.com/deeppunj/patient-finding-synthea), 2026-10-23
+Last update: [punjdeep-website](https://github.com/deeppunj/punjdeep-website), 2026-10-24
 
 **[US drug shortages dashboard](https://github.com/deeppunj/powerbi_fda_drug_shortages)**<br>
 Power BI dashboard analyzing 1,141 active US FDA drug shortages by category, manufacturer and duration
