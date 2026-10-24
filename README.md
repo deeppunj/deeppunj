@@ -4,9 +4,9 @@
   I turn measurements and records into tested, explainable models: from photonic devices to patient data.
 </p>
 <p align="center">
+  <a href="https://punjdeep.com/">Website</a> ·
   <a href="https://www.linkedin.com/in/deeppunj/">LinkedIn</a> ·
   <a href="mailto:deep.punj@outlook.com">deep.punj@outlook.com</a> ·
-  <a href="https://punjdeep.bio.link/">Bio link</a> ·
   Ghent, Belgium
 </p>
 
