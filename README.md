@@ -65,7 +65,7 @@ From waveguide mode design to assembly yield for fibre-to-chip and chip-to-chip 
 <!-- RECENT:START -->
 ## More projects
 
-Last update: [punjdeep-website](https://github.com/deeppunj/punjdeep-website), 2026-10-25
+Last update: [fab-reporting-ba](https://github.com/deeppunj/fab-reporting-ba), 2026-10-26
 
 **[US drug shortages dashboard](https://github.com/deeppunj/powerbi_fda_drug_shortages)**<br>
 Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by category, manufacturer and duration
@@ -76,6 +76,11 @@ Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by catego
 Earlier projects: Goodreads Streamlit app, Tableau dashboards, breast-cancer and banknote classifiers
 
 `portfolio-project` `scikit-learn` `streamlit` `tableau`
+
+**[Fab reporting ba](https://github.com/deeppunj/fab-reporting-ba)**<br>
+Business analysis case for a semiconductor pilot line: requirements, KPI dictionary, Kimball star schema, data-quality checks, SQL analysis, Streamlit dashboard and Power BI model. Finds the litho bottleneck and an etch-tool yield excursion. Simulated data.
+
+`business-analysis` `business-intelligence` `data-analytics` `data-modeling` `dax` `kimball` `kpi-dashboard` `manufacturing-analytics` `pandas` `portfolio-project` `postgresql` `power-bi` `python` `semiconductor` `sql` `star-schema` `streamlit` `yield-analysis`
 
 <!-- RECENT:END -->
 
