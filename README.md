@@ -65,7 +65,7 @@ From waveguide mode design to assembly yield for fibre-to-chip and chip-to-chip 
 <!-- RECENT:START -->
 ## More projects
 
-Last update: [light-and-data](https://github.com/deeppunj/light-and-data), 2026-10-30
+Last update: [laser-defect-inspection-ml](https://github.com/deeppunj/laser-defect-inspection-ml), 2026-10-30
 
 **[US drug shortages dashboard](https://github.com/deeppunj/powerbi_fda_drug_shortages)**<br>
 Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by category, manufacturer and duration
