@@ -1,7 +1,7 @@
 <h1 align="center">Deep Punj</h1>
 <p align="center">
   <b>Optical engineer and data scientist · PhD in nano-optics</b><br>
-  I turn measurements and records into tested, explainable models: from photonic devices to patient data.
+  I turn measurements and records into tested, explainable models: from photonic devices to real data.
 </p>
 <p align="center">
   <a href="https://punjdeep.com/">punjdeep.com</a> ·
