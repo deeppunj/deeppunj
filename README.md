@@ -65,7 +65,7 @@ From waveguide mode design to assembly yield for fibre-to-chip and chip-to-chip 
 <!-- RECENT:START -->
 ## More projects
 
-Last update: [punjdeep-website](https://github.com/deeppunj/punjdeep-website), 2026-11-12
+Last update: [storm-loss-model](https://github.com/deeppunj/storm-loss-model), 2026-11-13
 
 **[US drug shortages dashboard](https://github.com/deeppunj/powerbi_fda_drug_shortages)**<br>
 Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by category, manufacturer and duration
@@ -76,6 +76,11 @@ Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by catego
 Earlier projects: Goodreads Streamlit app, Tableau dashboards, breast-cancer and banknote classifiers
 
 `portfolio-project` `scikit-learn` `streamlit` `tableau`
+
+**[Storm loss model](https://github.com/deeppunj/storm-loss-model)**<br>
+Simulates yearly tornado damage in Texas from 25 years of NOAA data. Gives the average year and the 1-in-100 year, with a loss curve, sensitivity checks and a Streamlit dashboard. Python, PostgreSQL. A personal project on public data, not an insurance model.
+
+`catastrophe-modelling` `data-analysis` `matplotlib` `monte-carlo-simulation` `noaa` `numpy` `pandas` `postgresql` `python` `risk-modelling` `sql` `streamlit`
 
 **[Fab reporting ba](https://github.com/deeppunj/fab-reporting-ba)**<br>
 Business analysis case for a semiconductor pilot line: requirements, KPI dictionary, Kimball star schema, data-quality checks, SQL analysis, Streamlit dashboard and Power BI model. Finds the litho bottleneck and an etch-tool yield excursion. Simulated data.
