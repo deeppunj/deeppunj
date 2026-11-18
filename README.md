@@ -65,7 +65,7 @@ From waveguide mode design to assembly yield for fibre-to-chip and chip-to-chip 
 <!-- RECENT:START -->
 ## More projects
 
-Last update: [storm-loss-model](https://github.com/deeppunj/storm-loss-model), 2026-11-16
+Last update: [aerial-vehicle-detection](https://github.com/deeppunj/aerial-vehicle-detection), 2026-11-17
 
 **[US drug shortages dashboard](https://github.com/deeppunj/powerbi_fda_drug_shortages)**<br>
 Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by category, manufacturer and duration
@@ -76,6 +76,11 @@ Power BI dashboard analyzing 1,141 active shortage listings (69 drugs) by catego
 Earlier projects: Goodreads Streamlit app, Tableau dashboards, breast-cancer and banknote classifiers
 
 `portfolio-project` `scikit-learn` `streamlit` `tableau`
+
+**[Aerial vehicle detection](https://github.com/deeppunj/aerial-vehicle-detection)**<br>
+YOLO11 detector for planes, ships and large vehicles in aerial photos (DOTA). Tiling pipeline, per-class evaluation, Streamlit page.
+
+`aerial-imagery` `computer-vision` `dota` `google-colab` `object-detection` `python` `pytorch` `remote-sensing` `streamlit` `ultralytics` `yolo` `yolov11`
 
 **[Storm loss model](https://github.com/deeppunj/storm-loss-model)**<br>
 Simulates yearly tornado damage in Texas from 25 years of NOAA data. Gives the average year and the 1-in-100 year, with a loss curve, sensitivity checks and a Streamlit dashboard. Python, PostgreSQL. A personal project on public data, not an insurance model.
